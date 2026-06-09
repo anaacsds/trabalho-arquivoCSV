@@ -24,7 +24,7 @@ class Pesquisa
         Console.WriteLine("7. Telefone");
         Console.WriteLine("8. Data de Nascimento");
         Console.WriteLine("9. Cargo");
-        Console.Write("Opcao: ");
+        Console.Write("Opção: ");
         int opcao = int.Parse(Console.ReadLine());
 
         Console.Write("Digite o valor a buscar: ");
@@ -66,7 +66,21 @@ class Pesquisa
 
                 break;
             case 7:
+                string phoneValor = valor;
+                resultados.OrderBy(p => p.Phone).ToList();
+                resultados = resultados.Where(p => p.Phone == phoneValor).ToList();
 
+                if (resultados.Count == 0)
+                {
+                    Console.WriteLine("Nenhum resultado encontrado.");
+                }
+                else
+                {
+                    foreach (var pessoa in resultados)
+                    {
+                        Console.WriteLine($"Index: {pessoa.Index}, Id: {pessoa.Id}, FirstName: {pessoa.FirstName}, LastName: {pessoa.LastName}, Sex: {pessoa.Sex}, Email: {pessoa.Email}, Phone: {pessoa.Phone}, DateOfBirth: {pessoa.DateOfBirth}, JobTitle: {pessoa.JobTitle}");
+                    }
+                }
                 break;
             case 8:
                 break;
