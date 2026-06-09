@@ -26,6 +26,6 @@ static void Pesquisar(List<Person> lista)
     int opcao = int.Parse(Console.ReadLine());
 
     Console.Write("Digite o valor a buscar: ");
-    string valor = Console.ReadLine();
+    string valor = Console.ReadLine(); 
 
 }
