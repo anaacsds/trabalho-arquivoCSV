@@ -28,4 +28,6 @@ static void Pesquisar(List<Person> lista)
     Console.Write("Digite o valor a buscar: ");
     string valor = Console.ReadLine(); 
 
+    
+
 }
