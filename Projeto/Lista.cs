@@ -11,8 +11,20 @@ class Lista
         Console.WriteLine("Insira o Index da pessoa:");
         int index = int.Parse(Console.ReadLine());
 
+        while (lista.Any(p => p.Index == index))
+        {
+            Console.WriteLine("Index já existe. Por favor, insira um Index único:");
+            index = int.Parse(Console.ReadLine());
+        }
+
         Console.WriteLine("Insira o Id da pessoa:");
         string id = Console.ReadLine();
+
+        while (lista.Any(p => p.Id == id))
+        {
+            Console.WriteLine("Id já existe. Por favor, insira um Id único:");
+            id = Console.ReadLine();
+        }
 
         Console.WriteLine("Insira o FirstName da pessoa:");
         string firstname = Console.ReadLine();

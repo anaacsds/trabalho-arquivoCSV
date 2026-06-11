@@ -70,8 +70,8 @@ class Program
             Console.WriteLine("1. Inserir");
             Console.WriteLine("2. Remover");
             Console.WriteLine("3. Listar");
-            Console.WriteLine("4. Buscar por Index");
-            Console.WriteLine("5. Pesquisar");
+            Console.WriteLine("4. Buscar por Index (Pesquisa Linear por Index)");
+            Console.WriteLine("5. Pesquisar (Pesquisa Binária)");
             Console.WriteLine("6. Sair");
             Console.Write("Opção: ");
             int opcao = int.Parse(Console.ReadLine());
