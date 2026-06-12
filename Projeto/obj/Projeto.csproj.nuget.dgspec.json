@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lage\\Documents\\Trabalho CSV\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj": {}
+    "C:\\Users\\Lage\\Documents\\Trabalho AED arquivo csv\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lage\\Documents\\Trabalho CSV\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj": {
+    "C:\\Users\\Lage\\Documents\\Trabalho AED arquivo csv\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lage\\Documents\\Trabalho CSV\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj",
+        "projectUniqueName": "C:\\Users\\Lage\\Documents\\Trabalho AED arquivo csv\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj",
         "projectName": "Projeto",
-        "projectPath": "C:\\Users\\Lage\\Documents\\Trabalho CSV\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj",
+        "projectPath": "C:\\Users\\Lage\\Documents\\Trabalho AED arquivo csv\\Trabalho-ArquivoCSV\\Projeto\\Projeto.csproj",
         "packagesPath": "C:\\Users\\Lage\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lage\\Documents\\Trabalho CSV\\Trabalho-ArquivoCSV\\Projeto\\obj\\",
+        "outputPath": "C:\\Users\\Lage\\Documents\\Trabalho AED arquivo csv\\Trabalho-ArquivoCSV\\Projeto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lage\\AppData\\Roaming\\NuGet\\NuGet.Config"

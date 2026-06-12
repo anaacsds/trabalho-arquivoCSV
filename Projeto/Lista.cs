@@ -69,24 +69,4 @@ class Lista
             Console.WriteLine("--------------------------------------------------");
         }
     }
-
-    public void BuscarPorIndex()
-    {
-        Console.WriteLine("Insira o Index da pessoa a ser buscada:");
-        int index = int.Parse(Console.ReadLine());
-
-        var pessoa = lista.FirstOrDefault(p => p.Index == index);
-
-        if (pessoa != null)
-        {
-
-            Console.WriteLine($"Index: {pessoa.Index}, Id: {pessoa.Id}, FirstName: {pessoa.FirstName}, LastName: {pessoa.LastName}, Sex: {pessoa.Sex}, Email: {pessoa.Email}, Phone: {pessoa.Phone}, DateOfBirth: {pessoa.DateOfBirth}, JobTitle: {pessoa.JobTitle}");
-
-            Console.WriteLine("--------------------------------------------------");
-        }
-        else
-        {
-            Console.WriteLine("Pessoa não encontrada.");
-        }
-    }
 }
